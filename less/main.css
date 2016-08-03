@@ -10,7 +10,7 @@ body {
   src: url('../font/Acumin-Pro-Extra-Condensed-Regular.ttf'); 
 } 
 @font-face { 
-  font-family: Acumin-Pro-Extra-Condensed-Regular; 
+  font-family: Acumin-Pro-Extra-Light; 
   src: url('../font/Acumin-Pro-Extra-Light.ttf'); 
 } 
 .content{
