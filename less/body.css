@@ -1,3 +1,17 @@
 .body {
 	border: 1px solid green;
 }
+
+.bodyTextHead {
+  font-family: 'Acumin-Pro-Extra-Condensed-Regular';
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(46, 97, 135);
+}
+
+.bodyTextSub {
+  font-family: 'Acumin-Pro-Extra-Condensed-Regular';
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(46, 97, 135);
+}
