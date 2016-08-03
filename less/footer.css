@@ -10,9 +10,37 @@
     height: 22px;
 }
 .footer_content{
-	margin-left:350px;
+	margin-left:100px;
 }
-.footer_link{
-	border: 1px solid red;
+.link_panel {
+    height: 20px;
+}
+.footer_link {
+	border:0px solid black;
+	width:200px;
+	float:left;
+    font-family: Acumin-Pro-Extra-Light;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-left: 0px;
+}
+.footer_link:hover {
+    color: #7dafb5;
+	text-decoration:none;
+}
+.footer_link_container{
 	margin-top:50px;
+	width:auto;
+	border:0px solid blue;
+	height:100px;
+}
+
+.copyright_line {
+	border:0px solid red;
+    width: 670px;
+    font-family: Acumin-Pro-Extra-Light;
+    font-size: 14px;
+    padding-right: 19px;
+    color: #FFFFFF;
+    margin-top: 50px;
 }
