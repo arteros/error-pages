@@ -46,3 +46,9 @@
     color: #FFFFFF;
     margin-top: 30px;
 }
+
+@media screen and (max-width: 1365px) and (min-width: 0px) {
+  .footer_content {
+    margin-left: 100px;
+  }
+}
