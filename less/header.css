@@ -1,6 +1,5 @@
 .header {
   height: 70px;
-  width: auto;
   min-width: 1020px;
   background-color: rgb(255,255,255);
 }
@@ -30,10 +29,9 @@
   margin-top: 15px;
   font-family: 'Acumin-Pro-Extra-Condensed-Regular';
   font-size: 20px;
-  color: rgb(46, 97, 135);
 }
 
-a:link, a:active, a:visited {
+.header a:link,.header a:active,.header a:visited {
   text-decoration: none;
   color: rgb(46, 97, 135);
 }
