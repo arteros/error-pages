@@ -1,3 +1,47 @@
 .header {
-	border: 1px solid yellow;
+  height: 70px;
+  width: auto;
+  min-width: 1020px;
+  padding-top: 15px;
+  background-color: rgb(255,255,255);
 }
+
+.headerLogo {
+  background-image: url('../image/Crestone_logo_RGB.svg');
+  width: 160px;
+  height: 40px;
+  margin-left: 50px;
+  background-repeat: no-repeat;
+  background-position: l;
+  background-size: 160px 40px;
+  float: left;
+}
+
+.headerLinks {
+  float: right;
+  padding-right: 235px;
+}
+
+.headerLinksText{
+  display: inline-block;
+  margin-left: 5px;
+  margin-top: 15px;
+  font-family: 'Acumin-Pro-Extra-Condensed-Regular';
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(46, 97, 135);
+}
+
+a:link, a:active, a:visited {
+  text-decoration: none;
+}
+
+@font-face { 
+  font-family: Acumin-Pro-Extra-Condensed-Regular; 
+  src: url('../font/Acumin-Pro-Extra-Condensed-Regular.ttf'); 
+} 
+
+.headerLinksText:last-child {
+  margin-right: 10px;
+}
+
