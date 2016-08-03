@@ -4,20 +4,23 @@
 	background-color:#2e6187;
 	width:100%;
 }
+.footer_extra{
+	height:33px;
+}
 .logo_footer {
     background-image: url('../image/Crestone_logo_white.svg');
     width: 120px;
     height: 22px;
 }
 .footer_content{
-	margin-left:100px;
+	margin-left:350px;
 }
 .link_panel {
     height: 20px;
 }
 .footer_link {
 	border:0px solid black;
-	width:200px;
+	width:220px;
 	float:left;
     font-family: Acumin-Pro-Extra-Light;
     font-size: 16px;
@@ -42,5 +45,5 @@
     font-size: 14px;
     padding-right: 19px;
     color: #FFFFFF;
-    margin-top: 50px;
+    margin-top: 30px;
 }
