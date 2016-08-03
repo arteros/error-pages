@@ -5,5 +5,13 @@ body {
     min-width: 1020px;
 }
 
+@font-face { 
+  font-family: Acumin-Pro-Extra-Condensed-Regular; 
+  src: url('../font/Acumin-Pro-Extra-Condensed-Regular.ttf'); 
+} 
+@font-face { 
+  font-family: Acumin-Pro-Extra-Condensed-Regular; 
+  src: url('../font/Acumin-Pro-Extra-Light.ttf'); 
+} 
 .content{
 }

@@ -36,10 +36,6 @@ a:link, a:active, a:visited {
   text-decoration: none;
 }
 
-@font-face { 
-  font-family: Acumin-Pro-Extra-Condensed-Regular; 
-  src: url('../font/Acumin-Pro-Extra-Condensed-Regular.ttf'); 
-} 
 
 .headerLinksText:last-child {
   margin-right: 10px;
