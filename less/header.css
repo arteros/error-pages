@@ -36,6 +36,10 @@
   color: rgb(46, 97, 135);
 }
 
+.header a:hover {
+  color: #7db2b5;
+}
+
 
 .headerLinksText:last-child {
   margin-right: 10px;
