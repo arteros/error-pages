@@ -1,0 +1,86 @@
+<html>
+<head>
+	<title>Crestone Error Page</title>
+	<script src="js/jquery.js"></script>
+	<!--<script src="http://use.typekit.net/ohd2elg.js"></script>
+	<script>try{Typekit.load({ async: true });}catch(e){}</script> -->
+	<script>
+	(function(d) {
+	  var tkTimeout=3000;
+	  if(window.sessionStorage){if(sessionStorage.getItem('useTypekit')==='false'){tkTimeout=0;}}
+	  var config = {
+		kitId: 'ohd2elg',
+		scriptTimeout: tkTimeout
+	  },
+	  h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";if(window.sessionStorage){sessionStorage.setItem("useTypekit","false")}},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='//use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+	})(document);
+	</script>
+	<link rel="stylesheet" type="text/css" href="less/main.css"/>
+	<link rel="stylesheet" type="text/css" href="less/header.css"/>
+	<link rel="stylesheet" type="text/css" href="less/body.css"/>
+	<link rel="stylesheet" type="text/css" href="less/footer.css"/>
+</head>
+<body>
+    <div id="header" >
+	  <div class="header">
+        <div class="headerLogo"></div>
+		<div id="headerLinks" class="headerLinks">
+			<div class="headerLinksText tk-acumin-pro"><a href="http://www.crestone.com.au/about/about-crestone">ABOUT</a></div>
+			<div class="headerLinksText tk-acumin-pro"><a href="http://www.crestone.com.au/news">NEWS</a></div>
+			<div class="headerLinksText tk-acumin-pro"><a href="http://www.crestone.com.au/our-services/approach">SERVICES</a></div>
+			<div class="headerLinksText tk-acumin-pro"><a href="http://www.crestone.com.au/contact">CONTACT</a></div>
+		</div>
+	   </div>
+	</div>
+    <div id="body" >
+		<div class="body">
+			<div class="bodyText">
+				<div class="bodyTextHead tk-acumin-pro">
+			400
+				</div>
+				<div class="bodyTextSub tk-acumin-pro">
+			Bad request
+				</div>
+			</div>
+		</div>
+	</div>
+    <div class="footer">
+		<div class="footer_extra"></div>
+		<div class="footer_content">
+			<div class="logo_footer">
+			</div>
+			<div class="footer_link_container">
+				<div class="footer_link tk-acumin-pro">
+					<div class="link_panel">
+						<a href="http://www.crestone.com.au/about/about-crestone" class="footer_link tk-acumin-pro" role="link">About</a>
+					</div>
+					<div class="link_panel">
+						<a href="http://www.crestone.com.au/news" class="footer_link tk-acumin-pro" role="link">News</a>
+					</div>
+					<div class="link_panel">
+						<a href="http://www.crestone.com.au/our-services/approach" class="footer_link tk-acumin-pro" role="link">Services</a>
+					</div>
+					<div class="link_panel">
+						<a href="http://www.crestone.com.au/contact" class="footer_link tk-acumin-pro" role="link">Contact</a>
+					</div>
+				</div>
+				<div class="footer_link">
+					<div class="link_panel">
+						<a href="http://www.crestone.com.au/important-information" class="footer_link tk-acumin-pro" role="link" tabindex="0">Important information</a>
+					</div>
+					<div class="link_panel">
+						<a href="http://www.crestone.com.au/-/media/files/privacy-statement.ashx" target="_blank" class="footer_link tk-acumin-pro" role="link" tabindex="0">Privacy statement</a>
+					</div>
+					<div class="link_panel">
+						<a href="http://www.crestone.com.au/terms-and-conditions" class="footer_link tk-acumin-pro" role="link" tabindex="0">Terms and conditions</a>
+					</div>
+				</div>
+			</div>
+			<div  class="copyright_line tk-acumin-pro">
+				<span>&copy;2016 Crestone Wealth Management Limited ABN 50 005 311 937 | AFS License No. 231127. All rights reserved.</span>
+			</div>
+		</div>
+	</div>
+	
+</body>
+</html>

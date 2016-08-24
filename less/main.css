@@ -7,11 +7,11 @@ body {
 
 @font-face { 
 	font-family: Acumin-Pro-Extra-Condensed-Regular; 
-	src: url('../font/Acumin-Pro-Extra-Condensed-Regular.ttf'); 
+	src: url('../font/Acumin-Pro-Extra-Condensed-Regular.ttf') format('ttf'); 
 } 
 @font-face { 
 	font-family: Acumin-Pro-Extra-Light; 
-	src: url('../font/Acumin-Pro-Extra-Light.ttf'); 
+	src: url('../font/Acumin-Pro-Extra-Light.ttf') format('ttf'); 
 } 
 a {
 	text-decoration:none;
