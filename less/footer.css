@@ -22,10 +22,11 @@
 	border:0px solid black;
 	width:220px;
 	float:left;
-    font-family: Acumin-Pro-Extra-Light;
+    font-family: 'acumin-pro';
     font-size: 16px;
     color: #FFFFFF;
     margin-left: 0px;
+	font-weight: 200px;
 }
 .footer_link:hover {
     color: #7dafb5;
@@ -40,11 +41,12 @@
 .copyright_line {
 	border:0px solid red;
     width: 670px;
-    font-family: Acumin-Pro-Extra-Light;
+    font-family: 'acumin-pro';
     font-size: 14px;
     padding-right: 19px;
     color: #FFFFFF;
     margin-top: 30px;
+	font-weight: 200px;
 }
 
 @media screen and (max-width: 1365px) and (min-width: 0px) {
